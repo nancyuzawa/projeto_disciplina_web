@@ -1,0 +1,14 @@
+.image-content{
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-content > img{
+    width: 100%;
+}
+
+.creditos{
+    text-align: end;
+    margin-right: .8%;
+}

@@ -1,0 +1,21 @@
+header,
+header > div,
+header > div > img,
+header > div > p{
+    background-color: #ffffff;
+}
+
+.img-logo{
+    height: 70px;
+}
+.header-content{
+    height: 80px;
+    display: flex;
+    box-shadow: 4px 4px 10px rgba(95, 114, 155, 0.7);
+}
+
+.header-content > div {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}

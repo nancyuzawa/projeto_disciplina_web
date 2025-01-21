@@ -1,0 +1,62 @@
+.first-section{
+    margin: 2.5rem 3.5rem 0 3.5rem;
+    display: flex;
+    /* width: 100%; */
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.first-section > h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.btn-add{
+    background-color: rgb(104, 151, 204);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-add:hover{
+    background-color: rgb(61, 97, 138);
+}
+
+
+
+
+
+
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* border-radius: 20px; */
+}
+
+
+
+
+
+
+/* Conteúdo do modal */
+.modal-content {
+    background: white; /* Fundo do modal */
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
