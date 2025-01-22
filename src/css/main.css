@@ -21,10 +21,15 @@
     transition: .5s;
 }
 
+/* .buttons-content{ */
+    /* width: auto; */
+/* } */
+
 
 #btnGetCDCollection{
     background-color: rgb(61, 97, 138);
-    margin-left: 30rem;
+    margin-right: .75rem;
+    /* margin-left: 30rem; */
 }
 
 #btnGetCDCollection:hover{
@@ -70,4 +75,60 @@
     width: 700px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     position: relative;
+}
+
+
+/*Rsponsividade*/
+@media (max-width: 640px){
+    .first-section {
+        margin: 1rem;
+        flex-direction: column;
+    }
+    
+    .first-section > h1 {
+        font-size: 20px;
+    }
+    .buttons-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btnGetCDCollection {
+        margin: 0;
+        margin-bottom: .75rem;
+        margin-top: 1rem;
+        width: 80vw;
+
+    }
+
+    #btnAddPatient{
+        width: 80vw;
+    }
+
+    .btn-add {
+        width: 100vw;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .modal-contentt {
+        width: 90%;
+        max-width: 700px;
+    }
+}
+@media (max-width: 1008px) and (min-width: 641px) {
+    .first-section > h1 {
+        font-size: 20px;
+    }
+    #btnGetCDCollection {
+        margin-left: 0;
+        margin-right: .25rem;
+    }
+
+    .btn-add {
+        width: 160px;
+        height: 30px;
+        font-size: 15px;
+    }
 }

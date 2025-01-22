@@ -69,12 +69,14 @@ function Main() {
         <main>
             <section className="first-section">
                 <h1>Meus pacientes</h1>
-                <button className="btn-add" id="btnGetCDCollection" onClick={handleButtonClick}>
-                    Get my CD Collection
-                </button>
-                <button className="btn-add" id="btnAddPatient" onClick={handleAddPatientClick}>
-                    Adicionar paciente
-                </button>
+                <div className='buttons-content'>
+                    <button className="btn-add" id="btnGetCDCollection" onClick={handleButtonClick}>
+                        Get my CD Collection
+                    </button>
+                    <button className="btn-add" id="btnAddPatient" onClick={handleAddPatientClick}>
+                        Adicionar paciente
+                    </button>
+                </div>
             </section>
 
             {/* Modal para adicionar paciente */}

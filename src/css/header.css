@@ -27,3 +27,10 @@ header > div > p{
     margin-left: 2rem;
     margin-top: .75rem;
 }
+
+/* responsividade */
+@media (max-width: 640px) {
+    .header-content > div > p{
+        font-size: 25px;
+    }
+}
