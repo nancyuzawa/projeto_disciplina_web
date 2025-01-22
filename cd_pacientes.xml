@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+    <CD>
+        <NAME>João Silva</NAME>
+        <PESO>70</PESO>    
+        <ALTURA>1.75</ALTURA>
+        <GORDURA>18</GORDURA>
+        <IMC>22.9</IMC>
+    </CD>
+    <CD>
+        <NAME>Maria Oliveira</NAME>
+        <PESO>60</PESO>    
+        <ALTURA>1.65</ALTURA>
+        <GORDURA>25</GORDURA>
+        <IMC>22.0</IMC>
+    </CD>
+    <CD>
+        <NAME>Pedro Souza</NAME>
+        <PESO>85</PESO>    
+        <ALTURA>1.80</ALTURA>
+        <GORDURA>20</GORDURA>
+        <IMC>26.2</IMC>
+    </CD>
+    <CD>
+        <NAME>Ana Costa</NAME>
+        <PESO>55</PESO>    
+        <ALTURA>1.60</ALTURA>
+        <GORDURA>30</GORDURA>
+        <IMC>21.5</IMC>
+    </CD>
+    <CD>
+        <NAME>Lucas Almeida</NAME>
+        <PESO>92</PESO>    
+        <ALTURA>1.85</ALTURA>
+        <GORDURA>22</GORDURA>
+        <IMC>26.9</IMC>
+    </CD>
+    <CD>
+        <NAME>Fernanda Lima</NAME>
+        <PESO>65</PESO>    
+        <ALTURA>1.70</ALTURA>
+        <GORDURA>28</GORDURA>
+        <IMC>22.5</IMC>
+    </CD>
+    <CD>
+        <NAME>Ricardo Santos</NAME>
+        <PESO>105</PESO>    
+        <ALTURA>1.90</ALTURA>
+        <GORDURA>18</GORDURA>
+        <IMC>29.1</IMC>
+    </CD>
+</CATALOG>
