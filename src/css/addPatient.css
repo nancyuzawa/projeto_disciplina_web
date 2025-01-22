@@ -1,8 +1,5 @@
 .input-dados {
   width: 100%;
-  /* height: auto; */
-  /* border: 2px solid red; */
-  /* background-color: yellowgreen; */
 }
 
 .label-add-patient {
@@ -84,10 +81,6 @@ input:not(#btnAdicionar) {
 .input-informacao {
   width: 100%;
   display: flex;
-  /* justify-content: ; */
-  /* align-items: end; */
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
 }
 
 .input-informacao > .label-add-patient {
@@ -95,10 +88,6 @@ input:not(#btnAdicionar) {
   flex-direction: column;
 }
 
-/* input:not(#peso, #altura, #btnGetCDCollection,#btnAdicionar){
-    width: 100%;
-    box-sizing: border-box; 
-} */
 #nome,
 #por-gordura {
   width: 100%;
@@ -106,17 +95,14 @@ input:not(#btnAdicionar) {
 }
 #peso {
   margin-right: 0.5rem;
-  /* width: 320px; */
-  /* box-sizing: border-box;  */
 }
+
 input:not(#nome, #por-gordura, #btnAdicionar) {
   width: 310px;
   box-sizing: border-box;
 }
 
 .svg-content-close {
-  /* margin: .5rem; */
-  /* border-radius: 20px; */
   background-color: white;
   width: 100%;
   height: 25px;
@@ -124,7 +110,6 @@ input:not(#nome, #por-gordura, #btnAdicionar) {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  /* align-items: end; */
 }
 
 .btn-closee {
@@ -134,9 +119,7 @@ input:not(#nome, #por-gordura, #btnAdicionar) {
 
 .btn-closee > svg {
   height: 30px;
-  /* background-color: white; */
   margin-right: 1rem;
-  /* margin-top: 1rem; */
   cursor: pointer;
 }
 
@@ -157,9 +140,7 @@ svg:hover {
     margin: 0;
   }
   .add-patient-content {
-    /* height: auto; */
     width: 450px;
-    /* border: 1px; */
     height: 450px;
   }
   .form-add-patient {
