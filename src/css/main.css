@@ -1,134 +1,120 @@
-.first-section{
-    margin: 2.5rem 3.5rem 0 3.5rem;
-    display: flex;
-    /* width: 100%; */
-    /* background-color: blue; */
-    justify-content: space-between;
+.first-section {
+  margin: 2.5rem 3.5rem 0 3.5rem;
+  display: flex;
+  /* width: 100%; */
+  /* background-color: blue; */
+  justify-content: space-between;
 }
 
-.first-section > h1{
-    font-size: 35px;
-    font-weight: 400;
+.first-section > h1 {
+  font-size: 35px;
+  font-weight: 400;
 }
 
-.btn-add{
-    color: white;
-    font-size: 20px;
-    height: 40px;
-    width: 250px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .5s;
+.btn-add {
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 /* .buttons-content{ */
-    /* width: auto; */
+/* width: auto; */
 /* } */
 
-
-#btnGetCDCollection{
-    background-color: rgb(61, 97, 138);
-    margin-right: .75rem;
-    /* margin-left: 30rem; */
+#btnGetCDCollection {
+  background-color: rgb(61, 97, 138);
+  margin-right: 0.75rem;
+  /* margin-left: 30rem; */
 }
 
-#btnGetCDCollection:hover{
-    background-color: rgb(122, 167, 218);
+#btnGetCDCollection:hover {
+  background-color: rgb(122, 167, 218);
 }
 
-#btnAddPatient{
-    background-color: rgb(104, 151, 204);
-    
+#btnAddPatient {
+  background-color: rgb(104, 151, 204);
 }
 
-#btnAddPatient:hover{
-    background-color: rgb(48, 82, 121);
+#btnAddPatient:hover {
+  background-color: rgb(48, 82, 121);
 }
 
-
-
-
-
-
-.modal-overlayy{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    /* border-radius: 20px; */
+.modal-overlayy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* border-radius: 20px; */
 }
-
-
-
 
 /* Conteúdo do modal */
 .modal-contentt {
-    background: white; /* Fundo do modal */
-    padding: 20px;
-    border-radius: 10px;
-    width: 700px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    position: relative;
+  background: white; /* Fundo do modal */
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
-
 
 /*Rsponsividade*/
-@media (max-width: 640px){
-    .first-section {
-        margin: 1rem;
-        flex-direction: column;
-    }
-    
-    .first-section > h1 {
-        font-size: 20px;
-    }
-    .buttons-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 640px) {
+  .first-section {
+    margin: 1rem;
+    flex-direction: column;
+  }
 
-    #btnGetCDCollection {
-        margin: 0;
-        margin-bottom: .75rem;
-        margin-top: 1rem;
-        width: 80vw;
+  .first-section > h1 {
+    font-size: 25px;
+  }
+  .buttons-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    }
+  #btnGetCDCollection {
+    margin: 0;
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+    width: 80vw;
+  }
 
-    #btnAddPatient{
-        width: 80vw;
-    }
+  #btnAddPatient {
+    width: 80vw;
+  }
 
-    .btn-add {
-        width: 100vw;
-        height: 30px;
-        font-size: 15px;
-    }
+  .btn-add {
+    width: 100vw;
+    font-size: 15px;
+  }
 
-    .modal-contentt {
-        width: 90%;
-        max-width: 700px;
-    }
+  .modal-contentt {
+    width: 90%;
+    max-width: 700px;
+  }
 }
 @media (max-width: 1008px) and (min-width: 641px) {
-    .first-section > h1 {
-        font-size: 20px;
-    }
-    #btnGetCDCollection {
-        margin-left: 0;
-        margin-right: .25rem;
-    }
+  .first-section > h1 {
+    font-size: 25px;
+  }
+  #btnGetCDCollection {
+    margin-left: 0;
+    margin-right: 0.25rem;
+  }
 
-    .btn-add {
-        width: 160px;
-        height: 30px;
-        font-size: 15px;
-    }
+  .btn-add {
+    width: 160px;
+    font-size: 15px;
+  }
 }
