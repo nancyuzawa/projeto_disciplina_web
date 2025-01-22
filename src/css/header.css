@@ -2,20 +2,28 @@ header,
 header > div,
 header > div > img,
 header > div > p{
-    background-color: #ffffff;
+    background-color: rgb(61, 97, 138);
+    background-color: black;
+    color: white;
+    font-weight: 700;
 }
 
 .img-logo{
-    height: 70px;
+    height: 0px;
 }
 .header-content{
     height: 80px;
+    width: 100%;
     display: flex;
-    box-shadow: 4px 4px 10px rgba(95, 114, 155, 0.7);
+    /* box-shadow: 4px 4px 10px rgba(95, 114, 155, 0.7); */
 }
 
 .header-content > div {
     display: flex;
     align-items: center;
-    font-size: 25px;
+    /* justify-content: center; */
+    /* box-sizing: border-box; */
+    font-size: 30px;
+    margin-left: 2rem;
+    margin-top: .75rem;
 }

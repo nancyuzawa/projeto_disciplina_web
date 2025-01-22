@@ -1,0 +1,10 @@
+ 
+
+.table-content{
+    margin: 3rem;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: rgba(199, 221, 246, 0.347);
+
+  }

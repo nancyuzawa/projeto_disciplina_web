@@ -13,9 +13,9 @@ function App() {
 
 
 
-      {/* <footer>
+      <footer>
         <p>Logo por <a href="https://pt.vecteezy.com/vetor-gratis/nutri%C3%A7%C3%A3o-logo">Nutrição Logo Vetores por Vecteezy</a>.</p>
-      </footer> */}
+      </footer>
 
       
     </div>

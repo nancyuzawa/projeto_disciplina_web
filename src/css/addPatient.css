@@ -11,7 +11,7 @@
 
 .add-patient-content{
     height: auto;
-    width: 700px;
+    width: 680px;
     border: 1px;
 }
 .add-patient-content,
@@ -27,7 +27,6 @@
 #por-gordura,
 .campo-botao,
 .campo-botao > label,
-#btnGetCDCollection,
 #btnAdicionar
 {
     /* border-radius: 20px; */
@@ -48,19 +47,17 @@
     margin-bottom: .5rem;
 }
 
-#btnGetCDCollection,
 #btnAdicionar{
     background-color: rgb(104, 151, 204);
     color: white;
     font-size: 20px;
     height: 40px;
-    width: 320px;
+    width: 300px;
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
 }
 
-#btnGetCDCollection:hover,
 #btnAdicionar:hover{
     background-color: rgb(61, 97, 138);
 }
@@ -70,7 +67,7 @@
     padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
-input:not(#btnGetCDCollection,#btnAdicionar){
+input:not(#btnAdicionar){
     border: 1.5px solid rgb(121, 140, 172);
     border-radius: 10px;
     height: 30px;
@@ -86,9 +83,12 @@ input:not(#btnGetCDCollection,#btnAdicionar){
 }
 
 .input-informacao{
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: ; */
+    /* align-items: end; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
 }
 
 .input-informacao > .label-add-patient{
@@ -96,12 +96,23 @@ input:not(#btnGetCDCollection,#btnAdicionar){
     flex-direction: column;
 }
 
-input:not(#peso, #altura, #btnGetCDCollection,#btnAdicionar){
+/* input:not(#peso, #altura, #btnGetCDCollection,#btnAdicionar){
+    width: 100%;
+    box-sizing: border-box; 
+} */
+#nome, 
+#por-gordura{
     width: 100%;
     box-sizing: border-box; 
 }
-input:not(#nome, #por-gordura, #btnGetCDCollection,#btnAdicionar){
-    width: 320px;
+#peso{
+    margin-right: .5rem;
+    /* width: 320px; */
+    /* box-sizing: border-box;  */
+    
+}
+input:not(#nome, #por-gordura,#btnAdicionar){
+    width: 310px;
     box-sizing: border-box; 
 }
 
@@ -119,16 +130,16 @@ input:not(#nome, #por-gordura, #btnGetCDCollection,#btnAdicionar){
 
 }
 
-.btn-close{
+.btn-closee{
     background-color: white;
     border-radius: 20px;
 }
 
-.btn-close > svg{
+.btn-closee > svg{
     height: 30px;
     /* background-color: white; */
     margin-right: 1rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     cursor: pointer;
 }
 
