@@ -13,7 +13,7 @@ function AddPatient({ onClose, onAddPatient }) {
     e.preventDefault();
     if (isNaN(peso)) {
       window.alert(
-        "PESO INVÁLISO!\nPor favor, insira um número válido. O número pode ser decimal."
+        "PESO INVÁLIDO!\nPor favor, insira um número válido. O número pode ser decimal."
       );
     } else if (isNaN(altura)) {
       window.alert(

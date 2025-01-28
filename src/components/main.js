@@ -25,7 +25,7 @@ function Main() {
 
   // Função para buscar os dados XML
   const buscaDadosXML = async () => {
-    const resposta = await fetch("/xml/cd_pacientes.xml");
+    const resposta = await fetch("cd_pacientes.xml");
 
     const texto = await resposta.text();
     return new window.DOMParser().parseFromString(texto, "application/xml");
@@ -84,7 +84,7 @@ function Main() {
             id="btnGetCDCollection"
             onClick={handleButtonClick}
           >
-            Get my CD Collection
+            Preencher com exemplos
           </button>
           <button
             className="btn-add"

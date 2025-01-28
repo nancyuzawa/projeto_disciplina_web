@@ -1,22 +1,17 @@
 {
-  "homepage": "https://nancyuzawa.github.io/projeto_disciplina_web",
-  "name": "clinica-nutricao",
+  "name": "projeto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
-    "react-bootstrap": "^2.10.8",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "react-shadow": "^20.6.0",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }

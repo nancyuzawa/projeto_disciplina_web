@@ -1,174 +1,175 @@
 .input-dados {
-  width: 100%;
-}
-
-.label-add-patient {
-  font-size: 20px;
-}
-
-.add-patient-content {
-  height: auto;
-  width: 680px;
-  border: 1px;
-}
-.add-patient-content,
-.add-patient-content > h1,
-.add-patient-content > form,
-.input-dados,
-.input-dados > label,
-#nome,
-.input-informacao,
-.input-informacao > label,
-#peso,
-#altura,
-#por-gordura,
-.campo-botao,
-.campo-botao > label,
-#btnAdicionar {
-  /* border-radius: 20px; */
-  background-color: white;
-}
-
-/* Titulo */
-.add-patient-content > h1 {
-  text-align: center;
-  margin: 1rem 0 0.5rem 0;
-  /* padding-top: 1rem; */
-}
-
-.campo-botao {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-#btnAdicionar {
-  background-color: rgb(104, 151, 204);
-  color: white;
-  font-size: 20px;
-  height: 40px;
-  width: 300px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-#btnAdicionar:hover {
-  background-color: rgb(61, 97, 138);
-}
-
-.form-add-patient {
-  /* border: 1px solid blue; */
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
-}
-
-input:not(#btnAdicionar) {
-  border: 1.5px solid rgb(121, 140, 172);
-  border-radius: 10px;
-  height: 30px;
-  font-size: 20px;
-  padding-left: 0.5rem;
-  background-color: rgba(121, 140, 172, 0.196);
-  margin-top: 0.25rem;
-}
-
-.input-informacao {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.input-informacao {
-  width: 100%;
-  display: flex;
-}
-
-.input-informacao > .label-add-patient {
-  display: flex;
-  flex-direction: column;
-}
-
-#nome,
-#por-gordura {
-  width: 100%;
-  box-sizing: border-box;
-}
-#peso {
-  margin-right: 0.5rem;
-}
-
-input:not(#nome, #por-gordura, #btnAdicionar) {
-  width: 310px;
-  box-sizing: border-box;
-}
-
-.svg-content-close {
-  background-color: white;
-  width: 100%;
-  height: 25px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-
-.btn-closee {
-  background-color: white;
-  border-radius: 20px;
-}
-
-.btn-closee > svg {
-  height: 30px;
-  margin-right: 1rem;
-  cursor: pointer;
-}
-
-svg {
-  background-color: white;
-  fill: #000000;
-  border-radius: 5px;
-  padding: 0.25rem;
-  transition: 0.5s;
-}
-svg:hover {
-  fill: rgb(255, 255, 255);
-  background-color: rgb(104, 151, 204);
-}
-
-@media (max-width: 640px) {
-  .add-patient-content > h1 {
-    margin: 0;
+    width: 100%;
   }
+  
+  .label-add-patient {
+    font-size: 20px;
+  }
+  
   .add-patient-content {
-    width: 450px;
-    height: 450px;
+    height: auto;
+    width: 680px;
+    border: 1px;
   }
-  .form-add-patient {
-    padding-bottom: 0;
-  }
-  .campo-botao {
-    margin-top: 1.5rem;
-  }
-
-  .input-informacao {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    /* width: 100%; */
-  }
-  .bg-white {
-    display: flex;
-    flex-direction: column;
-    /* width: 100%; */
-    width: auto;
-  }
-
-  .input-dados input {
-    width: 100%;
-  }
-
+  .add-patient-content,
+  .add-patient-content > h1,
+  .add-patient-content > form,
+  .input-dados,
+  .input-dados > label,
+  #nome,
+  .input-informacao,
+  .input-informacao > label,
   #peso,
-  #altura {
-    width: 100%;
+  #altura,
+  #por-gordura,
+  .campo-botao,
+  .campo-botao > label,
+  #btnAdicionar {
+    /* border-radius: 20px; */
+    background-color: white;
   }
-}
+  
+  /* Titulo */
+  .add-patient-content > h1 {
+    text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    /* padding-top: 1rem; */
+  }
+  
+  .campo-botao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #btnAdicionar {
+    background-color: rgb(104, 151, 204);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  #btnAdicionar:hover {
+    background-color: rgb(61, 97, 138);
+  }
+  
+  .form-add-patient {
+    /* border: 1px solid blue; */
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+  
+  input:not(#btnAdicionar) {
+    border: 1.5px solid rgb(121, 140, 172);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 0.5rem;
+    background-color: rgba(121, 140, 172, 0.196);
+    margin-top: 0.25rem;
+  }
+  
+  .input-informacao {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-informacao {
+    width: 100%;
+    display: flex;
+  }
+  
+  .input-informacao > .label-add-patient {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #nome,
+  #por-gordura {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #peso {
+    margin-right: 0.5rem;
+  }
+  
+  input:not(#nome, #por-gordura, #btnAdicionar) {
+    width: 310px;
+    box-sizing: border-box;
+  }
+  
+  .svg-content-close {
+    background-color: white;
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  
+  .btn-closee {
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .btn-closee > svg {
+    height: 30px;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  svg {
+    background-color: white;
+    fill: #000000;
+    border-radius: 5px;
+    padding: 0.25rem;
+    transition: 0.5s;
+  }
+  svg:hover {
+    fill: rgb(255, 255, 255);
+    background-color: rgb(104, 151, 204);
+  }
+  
+  @media (max-width: 640px) {
+    .add-patient-content > h1 {
+      margin: 0;
+    }
+    .add-patient-content {
+      width: 450px;
+      height: 450px;
+    }
+    .form-add-patient {
+      padding-bottom: 0;
+    }
+    .campo-botao {
+      margin-top: 1.5rem;
+    }
+  
+    .input-informacao {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      /* width: 100%; */
+    }
+    .bg-white {
+      display: flex;
+      flex-direction: column;
+      /* width: 100%; */
+      width: auto;
+    }
+  
+    .input-dados input {
+      width: 100%;
+    }
+  
+    #peso,
+    #altura {
+      width: 100%;
+    }
+  }
+  

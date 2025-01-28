@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+    <CD>
+        <NAME>John Smith</NAME>
+        <PESO>50</PESO>
+        <ALTURA>1.75</ALTURA>
+        <GORDURA>12</GORDURA>
+        <IMC>16.3</IMC> <!-- Abaixo do peso -->
+    </CD>
+    <CD>
+        <NAME>Ana González</NAME>
+        <PESO>90</PESO>
+        <ALTURA>1.60</ALTURA>
+        <GORDURA>35</GORDURA>
+        <IMC>35.2</IMC> <!-- Obesidade grau 1 -->
+    </CD>
+    <CD>
+        <NAME>Hiroshi Tanaka</NAME>
+        <PESO>48</PESO>
+        <ALTURA>1.70</ALTURA>
+        <GORDURA>10</GORDURA>
+        <IMC>16.6</IMC> <!-- Abaixo do peso -->
+    </CD>
+    <CD>
+        <NAME>Emma Brown</NAME>
+        <PESO>120</PESO>
+        <ALTURA>1.80</ALTURA>
+        <GORDURA>40</GORDURA>
+        <IMC>37.0</IMC> <!-- Obesidade grau 2 -->
+    </CD>
+    <CD>
+        <NAME>Mohammed Ali</NAME>
+        <PESO>75</PESO>
+        <ALTURA>1.75</ALTURA>
+        <GORDURA>18</GORDURA>
+        <IMC>24.5</IMC> <!-- Peso normal, limite superior -->
+    </CD>
+    <CD>
+        <NAME>Li Wei</NAME>
+        <PESO>55</PESO>
+        <ALTURA>1.68</ALTURA>
+        <GORDURA>14</GORDURA>
+        <IMC>19.5</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Sophia Müller</NAME>
+        <PESO>95</PESO>
+        <ALTURA>1.60</ALTURA>
+        <GORDURA>32</GORDURA>
+        <IMC>37.1</IMC> <!-- Obesidade grau 2 -->
+    </CD>
+    <CD>
+        <NAME>Luca Rossi</NAME>
+        <PESO>110</PESO>
+        <ALTURA>1.90</ALTURA>
+        <GORDURA>28</GORDURA>
+        <IMC>30.5</IMC> <!-- Obesidade grau 1 -->
+    </CD>
+    <CD>
+        <NAME>Chloe Martin</NAME>
+        <PESO>42</PESO>
+        <ALTURA>1.55</ALTURA>
+        <GORDURA>10</GORDURA>
+        <IMC>17.5</IMC> <!-- Abaixo do peso -->
+    </CD>
+    <CD>
+        <NAME>Ivan Ivanov</NAME>
+        <PESO>78</PESO>
+        <ALTURA>1.85</ALTURA>
+        <GORDURA>18</GORDURA>
+        <IMC>22.8</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Gabriela Souza</NAME>
+        <PESO>105</PESO>
+        <ALTURA>1.70</ALTURA>
+        <GORDURA>38</GORDURA>
+        <IMC>36.3</IMC> <!-- Obesidade grau 2 -->
+    </CD>
+    <CD>
+        <NAME>Mei Ling</NAME>
+        <PESO>49</PESO>
+        <ALTURA>1.58</ALTURA>
+        <GORDURA>18</GORDURA>
+        <IMC>19.6</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Carlos García</NAME>
+        <PESO>135</PESO>
+        <ALTURA>1.82</ALTURA>
+        <GORDURA>45</GORDURA>
+        <IMC>40.7</IMC> <!-- Obesidade grau 3 -->
+    </CD>
+    <CD>
+        <NAME>Yuki Yamamoto</NAME>
+        <PESO>64</PESO>
+        <ALTURA>1.80</ALTURA>
+        <GORDURA>15</GORDURA>
+        <IMC>19.8</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Olivia Jones</NAME>
+        <PESO>95</PESO>
+        <ALTURA>1.60</ALTURA>
+        <GORDURA>30</GORDURA>
+        <IMC>37.1</IMC> <!-- Obesidade grau 2 -->
+    </CD>
+    <CD>
+        <NAME>André Silva</NAME>
+        <PESO>72</PESO>
+        <ALTURA>1.80</ALTURA>
+        <GORDURA>20</GORDURA>
+        <IMC>22.2</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Katerina Petrova</NAME>
+        <PESO>49</PESO>
+        <ALTURA>1.60</ALTURA>
+        <GORDURA>15</GORDURA>
+        <IMC>19.1</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Ethan Williams</NAME>
+        <PESO>125</PESO>
+        <ALTURA>1.85</ALTURA>
+        <GORDURA>40</GORDURA>
+        <IMC>36.5</IMC> <!-- Obesidade grau 2 -->
+    </CD>
+    <CD>
+        <NAME>Maria Fernandez</NAME>
+        <PESO>70</PESO>
+        <ALTURA>1.70</ALTURA>
+        <GORDURA>22</GORDURA>
+        <IMC>24.2</IMC> <!-- Peso normal -->
+    </CD>
+    <CD>
+        <NAME>Nikolay Popov</NAME>
+        <PESO>150</PESO>
+        <ALTURA>1.78</ALTURA>
+        <GORDURA>50</GORDURA>
+        <IMC>47.3</IMC> <!-- Obesidade grau 3 -->
+    </CD>
+</CATALOG>

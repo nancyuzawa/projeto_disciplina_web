@@ -1,6 +1,5 @@
 import '../css/global.css';
 import '../css/header.css';
-import logoClinica from '../images/logo.png';
 
 
 function Header(){
