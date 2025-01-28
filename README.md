@@ -49,7 +49,24 @@
 	Demonstração da aplicação
 </h2>
 
-![image](https://github.com/user-attachments/assets/5368808d-6286-4247-9d80-9dbd92deef5d)
+<h3>
+  Tela Inicial
+</h3>
+
+![tela inicial](https://github.com/user-attachments/assets/b395a23f-cf6d-4485-95d7-f12bb742e39f)
+
+<h3>
+  Tela após clicar em 'Preencher com exemplos'
+</h3>
+
+![tela apos apertar preencher com exemplos](https://github.com/user-attachments/assets/8c2e944e-0706-4fc1-a311-8d252bff6cf0)
+
+<h3>
+  Tela adicionar paciente
+</h3>
+
+![adicionar paciente](https://github.com/user-attachments/assets/c5d10440-a55b-43bc-8d9a-21ff3b5c9b18)
+
 
 <br>
 <p align="center">
